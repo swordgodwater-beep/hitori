@@ -9,7 +9,7 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6287760563021'] //['628','628'] 2 owner atau lebih
+global.owner = ['Reyyz'] //['628','628'] 2 owner atau lebih
 global.author = 'ʀᴇʏʏᴢ'
 global.botname = 'ʀᴇʏʏᴢ ʙᴏᴛ'
 global.packname = 'Bot WhatsApp'
@@ -36,22 +36,22 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
+	yt: 'https://youtube.com/@sword2god?si=1X5hJfua1dyP1OWA',
 	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
+	gc: 'https://whatsapp.com/channel/0029VbBCACX4NVilOI7RmZ2J',
 	ch: '120363250409960161@newsletter',
 }
 
 global.limit = {
-	free: 500,
-	premium: 1000,
-	vip: 9999999999
+	FREE: 500,
+	PREMIUM: 1000,
+	VIP: 9999999999
 }
 
 global.money = {
-	free: 500000,
-	premium: 1000000,
-	vip: 9999999999
+	FREE: 500000,
+	PREMIUM: 1000000,
+	VIP: 9999999999
 }
 
 global.mess = {
@@ -90,4 +90,5 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
 
