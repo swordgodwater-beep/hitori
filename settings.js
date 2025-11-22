@@ -9,23 +9,21 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
-global.packname = 'Bot WhatsApp'
-global.listprefix = ['+','!','.']
+global.owner = ['6287760563021'] //['628','628'] 2 owner atau lebih
+global.author = 'ʀᴇʏʏᴢ'
+global.botname = 'ʀᴇʏxʙᴏᴛ'
+lobal.packname = 'Bot WWhatsApp'global.listprefix = ['+','!','.']
 
 /*
 - Setting Author, Packname, Botname sekarang pakai command
-- Walau sudah diganti tidak berubah
-- setbotauthor, setbotpackname, setbotname
+- Walau sudah diganti tidak bberubah- setbotauthor, setbotpackname, setbotname
 */
 
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
-global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
+global.number_bot = '6285786423802''// Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
 	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
@@ -43,15 +41,16 @@ global.my = {
 }
 
 global.limit = {
-	free: 20,
-	premium: 999,
-	vip: 9999
+	Gratisan: 100,
+	Pro: 999,
+	Infinity: 9999999999,
+	
 }
 
 global.money = {
-	free: 10000,
-	premium: 1000000,
-	vip: 10000000
+	Gratisan: 10000,
+	Pro: 1000000,
+	Infinity: 9999999999
 }
 
 global.mess = {
@@ -61,8 +60,8 @@ global.mess = {
 	botAdmin: 'Bot Bukan Admin!',
 	group: 'Gunakan Di Group!',
 	private: 'Gunakan Di Privat Chat!',
-	limit: 'Limit Anda Telah Habis!',
-	prem: 'Khusus User Premium!',
+	limit: 'Limit Mu Habis Silahkan Buy Limit!',
+	prem: 'Khusus User Pro!',
 	wait: 'Loading...',
 	error: 'Error!',
 	done: 'Done'
@@ -90,3 +89,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
